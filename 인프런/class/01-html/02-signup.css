@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    color: blue;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.screen {
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+    width: 670px;
+    height: 960px;
+    border: 1px solid #aacdff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 7px 7px 39px 0px #0068FF40;
+    border-radius: 20px;
+}
+
+.pb {
+    width: 470px;
+    height: 818px;
+
+}
+
+.pw {
+    border: 1px solid blue;
+}
+
+.gender {
+    font: Noto Sans CJK KR;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.68px;
+}
+
+.agreement {
+    font: Noto Sans CJK KR;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.72px;
+}
+
+#title {
+    width: 466px;
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#titleFont {
+    font-style: Noto Sans CJK KR;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47.36px;
+    color: #0068FF;
+}
+
+#fillSection {
+    width: 466px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
